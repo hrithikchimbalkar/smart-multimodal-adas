@@ -38,6 +38,22 @@ This project demonstrates a **research-grade ADAS pipeline** built step-by-step 
 
 ---
 
+## 🖼️ Visual Results & Demo
+
+### Camera-Based Object Detection (YOLOv8)
+The system detects vehicles and road objects using camera perception.
+
+![Camera Detection](demo/camera_radarscenes/000.jpg)
+
+---
+
+### Radar-Based Tracking
+Radar point clustering and Kalman-filter-based tracking of surrounding objects.
+
+![Radar Tracking](demo/radar_tracking.png)
+
+---
+
 ## 🗂️ Project Structure
 
 ```text
@@ -184,6 +200,18 @@ python src/llm/explain_decision.py
 ```text
  "The vehicle applied braking because the detected object was within a safe stopping distance. Sensor fusion confidence was high, indicating reliable perception. This action reduced collision risk. A future improvement would be incorporating object velocity."
 ```
+
+## 🧠 Explainable Decision Making (LLM)
+
+Each safety-critical decision made by the RL agent is logged and explained
+using a local Large Language Model (LLM).
+
+The explanation includes:
+- Why the action was chosen
+- Whether it was safe
+- Suggestions for improvement
+
+![LLM Explanation](demo/llm_explanation.png)
 
 ---
 
