@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Conda / virtual env
+env/
+.conda/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & runtime outputs
+logs/*.jsonl
+demo/camera_radarscenes/
+
+# Large datasets (DO NOT PUSH)
+RadarScenes/
+
+# Model weights
+*.pt
+*.zip
+
+# VS Code
+.vscode/
