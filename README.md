@@ -43,7 +43,7 @@ This project demonstrates a **research-grade ADAS pipeline** built step-by-step 
 ### Camera-Based Object Detection (YOLOv8)
 The system detects vehicles and road objects using camera perception.
 
-![Camera Detection](demo/camera_radarscenes/000.jpg)
+![Camera Detection](demo/camera_detection_1.jpg)
 
 ---
 
